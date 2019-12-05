@@ -342,7 +342,7 @@ url("mock.php?foo=bar");
 Some tests may require a document other than the standard test fixture, and
 these can be run in a separate iframe. The actual test code and assertions
 remain in jQuery's main test files; only the minimal test fixture markup
-and setup code should be placed in the iframe file.
+and setup code should be placed in the iframe file.  
 
 ```js
 testIframe( testName, fileName,
